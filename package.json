@@ -1,25 +1,31 @@
 {
-  "name": "serialport_test",
+  "name": "arduinoNodeJS",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Arduino, NodeJS, Express, Serialport and socketio",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "serialport": "1.7.1"  
-  },
-  "engines": {
-    "node": "0.12.7"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quadcodes/serialport_test"
+    "url": "https://github.com/fitosegrera/arduinoNodeJS.git"
   },
   "keywords": [
-    "node",
-    "serialport"
+    "arduino",
+    "nodejs",
+    "socket.io",
+    "serialport",
+    "express"
   ],
-  "author": "Mandar Shirke",
-  "license": "MIT"
+  "author": "fito_segrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitosegrera/arduinoNodeJS/issues"
+  },
+  "homepage": "https://github.com/fitosegrera/arduinoNodeJS",
+  "dependencies": {
+    "express": "^4.12.3",
+    "serialport": "^1.6.3",
+    "socket.io": "^1.3.5"
+  }
 }
