@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "serialport": "1.6.1"  
+    "serialport": "1.7.1"  
   },
   "engines": {
     "node": "0.12.7"
