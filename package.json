@@ -1,0 +1,25 @@
+{
+  "name": "serialport_test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "serialport": "1.6.1"  
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quadcodes/serialport_test"
+  },
+  "keywords": [
+    "node",
+    "serialport"
+  ],
+  "author": "Mandar Shirke",
+  "license": "MIT"
+}
