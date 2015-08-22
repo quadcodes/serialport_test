@@ -7,7 +7,7 @@ var SerialPort = require("serialport").SerialPort
 
 //Setup the serial port to talk and listen to arduino's
 var arduino = new SerialPort("/dev/cu.usbserial-A9E9H3RJ", {
-    baudrate: 9600
+    baudrate: 115200
 })
 
 //Set the ap to serve static files in the folder /public
