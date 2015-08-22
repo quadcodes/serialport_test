@@ -6,7 +6,7 @@ var fs = require('fs')
 var SerialPort = require("serialport").SerialPort
 
 //Setup the serial port to talk and listen to arduino's
-var arduino = new SerialPort("/dev/ttyACM0", {
+var arduino = new SerialPort("/dev/cu.usbserial-A9E9H3RJ", {
     baudrate: 9600
 })
 
